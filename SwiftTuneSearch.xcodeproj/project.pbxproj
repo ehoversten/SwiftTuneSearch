@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C7FA828F1B680D6800803A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA828E1B680D6800803A7B /* AppDelegate.swift */; };
-		C7FA82911B680D6800803A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA82901B680D6800803A7B /* ViewController.swift */; };
-		C7FA82941B680D6800803A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FA82921B680D6800803A7B /* Main.storyboard */; };
 		C7FA82961B680D6800803A7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FA82951B680D6800803A7B /* Images.xcassets */; };
 		C7FA82991B680D6900803A7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7FA82971B680D6900803A7B /* LaunchScreen.xib */; };
 		C7FA82A51B680D6900803A7B /* SwiftTuneSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA82A41B680D6900803A7B /* SwiftTuneSearchTests.swift */; };
+		C7FA82B11B680D8800803A7B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA82B01B680D8800803A7B /* Reachability.m */; };
+		C7FA82B31B680DA600803A7B /* TuneSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA82B21B680DA600803A7B /* TuneSearch.swift */; };
+		C7FA82B51B680DC000803A7B /* TuneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA82B41B680DC000803A7B /* TuneCollectionViewCell.swift */; };
+		C7FA82B71B680DF100803A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA82B61B680DF100803A7B /* ViewController.swift */; };
+		C7FA82B91B680E1800803A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FA82B81B680E1800803A7B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,18 @@
 		C7FA82891B680D6800803A7B /* SwiftTuneSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTuneSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FA828D1B680D6800803A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FA828E1B680D6800803A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7FA82901B680D6800803A7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7FA82931B680D6800803A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7FA82951B680D6800803A7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7FA82981B680D6900803A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7FA829E1B680D6900803A7B /* SwiftTuneSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTuneSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FA82A31B680D6900803A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FA82A41B680D6900803A7B /* SwiftTuneSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTuneSearchTests.swift; sourceTree = "<group>"; };
+		C7FA82AE1B680D8700803A7B /* SwiftTuneSearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTuneSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7FA82AF1B680D8800803A7B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C7FA82B01B680D8800803A7B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C7FA82B21B680DA600803A7B /* TuneSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneSearch.swift; path = ../TuneSearch.swift; sourceTree = "<group>"; };
+		C7FA82B41B680DC000803A7B /* TuneCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneCollectionViewCell.swift; path = ../TuneCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7FA82B61B680DF100803A7B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		C7FA82B81B680E1800803A7B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +86,16 @@
 			isa = PBXGroup;
 			children = (
 				C7FA828E1B680D6800803A7B /* AppDelegate.swift */,
-				C7FA82901B680D6800803A7B /* ViewController.swift */,
-				C7FA82921B680D6800803A7B /* Main.storyboard */,
+				C7FA82B61B680DF100803A7B /* ViewController.swift */,
+				C7FA82B21B680DA600803A7B /* TuneSearch.swift */,
+				C7FA82B41B680DC000803A7B /* TuneCollectionViewCell.swift */,
+				C7FA82AF1B680D8800803A7B /* Reachability.h */,
+				C7FA82B01B680D8800803A7B /* Reachability.m */,
+				C7FA82B81B680E1800803A7B /* Main.storyboard */,
 				C7FA82951B680D6800803A7B /* Images.xcassets */,
 				C7FA82971B680D6900803A7B /* LaunchScreen.xib */,
 				C7FA828C1B680D6800803A7B /* Supporting Files */,
+				C7FA82AE1B680D8700803A7B /* SwiftTuneSearch-Bridging-Header.h */,
 			);
 			path = SwiftTuneSearch;
 			sourceTree = "<group>";
@@ -192,7 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FA82941B680D6800803A7B /* Main.storyboard in Resources */,
+				C7FA82B91B680E1800803A7B /* Main.storyboard in Resources */,
 				C7FA82991B680D6900803A7B /* LaunchScreen.xib in Resources */,
 				C7FA82961B680D6800803A7B /* Images.xcassets in Resources */,
 			);
@@ -212,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FA82911B680D6800803A7B /* ViewController.swift in Sources */,
+				C7FA82B71B680DF100803A7B /* ViewController.swift in Sources */,
+				C7FA82B31B680DA600803A7B /* TuneSearch.swift in Sources */,
+				C7FA82B11B680D8800803A7B /* Reachability.m in Sources */,
+				C7FA82B51B680DC000803A7B /* TuneCollectionViewCell.swift in Sources */,
 				C7FA828F1B680D6800803A7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7FA82921B680D6800803A7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7FA82931B680D6800803A7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7FA82971B680D6900803A7B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,9 +348,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftTuneSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTuneSearch/SwiftTuneSearch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftTuneSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTuneSearch/SwiftTuneSearch-Bridging-Header.h";
 			};
 			name = Release;
 		};
